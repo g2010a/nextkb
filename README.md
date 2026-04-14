@@ -1,4 +1,4 @@
-# AI Knowledge Base (AIKB)
+# AI Knowledge Base (NextKB)
 
 A **local**, LLM-managed knowledgebase that uses qmd for indexing, embedding, and querying markdown documents. Built as a metaharness that piggy-backs on opencode (an AI coding assistant) to provide commands, skills, and agent definitions for maintaining an AI-curated wiki.
 
