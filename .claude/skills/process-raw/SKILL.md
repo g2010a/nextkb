@@ -9,4 +9,4 @@ description: Process raw documents
 - Get a list of files in 1-raw: !`ls 1-raw`
 - Use a subagent to scan each file asynchronously with the `learn` skill
 - After the subagents complete scanning all files and none are left in `1-raw/`,
-  refresh the vector database by executing !`qmd update`
+  refresh the vector database by executing !`qmd update` and !`qmd embed`
