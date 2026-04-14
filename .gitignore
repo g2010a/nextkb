@@ -1,6 +1,7 @@
 1-raw/*
 2-processed/*
 3-aikb/*
+outputs/*
 !.gitkeep
 
 log.md
