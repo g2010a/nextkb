@@ -1,0 +1,6 @@
+1-raw/*
+2-processed/*
+3-aikb/*
+!.gitkeep
+
+log.md
