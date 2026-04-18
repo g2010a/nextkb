@@ -4,6 +4,17 @@ A **local**, LLM-managed knowledgebase that uses qmd for indexing, embedding, an
 
 Primarily, however, this is a personal exploration of metaharnesses. You're probably better served by https://openwebui.com/
 
+## Get started right away
+
+Put some documents (text, markdown, maybe PDF?) in `1-raw/`, then do this in the shell:
+
+```bash
+devbox update  # just in case, to avoid conflicts with your local database
+devbox shell
+# Inside the shell
+opencode
+```
+
 ## Job to Be Done
 
 As a knowledge worker, researcher, or builder who wants to maintain a personal body of knowledge on my device, that grows over time and remains queryable, I want an AI agent to help me capture, organize, and retrieve information from diverse sources so that I can build a coherent mental model of topics I care about without manually maintaining index cards or forgetting what I've read.
